@@ -1,0 +1,42 @@
+.salir{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container_home {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 800px;
+    height: 450px;
+    padding: 50px;
+    transform: translate(-50%, -50%);
+    background: rgba(87, 77, 143, 0.5);
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: #fdfbfb;
+  }
+
+
+.btn_group{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.btn_group button, .salir button{
+    width: 20%;
+    padding: 20px;
+    font-size: 14px;
+    letter-spacing: 3px;
+    color: #f0f0f0;
+    background: transparent;
+    border: none;
+}
+
+.btn_group button:hover, .salir button:hover{
+    cursor: pointer;
+    color: white;
+}
